@@ -36,7 +36,7 @@ Installation Instructions:
 
 
 Reference:
--MDN Wed Documents for prompts
+-MDN Wed Documents for prompts and logic
 -
 
 

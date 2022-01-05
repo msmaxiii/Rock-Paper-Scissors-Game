@@ -1,3 +1,36 @@
-body{
-    background-color:yellow;
+/* *{
+ margin:0;
+padding:0;
+box-sizing:border-box ;
 }
+
+body {
+background-color:lightgrey  ;
+}
+
+header {
+background:rgb(212, 223, 247);
+padding:20px;
+}
+header > h1{
+    color:darkblue;
+    text-align:center;
+    font-family:'Gill Sans', sans-serif;
+
+}
+.container{position:relative;
+        width: 50%;
+        height: 50%;
+        display:flex;
+} */
+
+
+
+/* button id {
+    margin:20px auto;
+    border: 3px
+    text-align: center;
+    font-size:;
+    padding: 15px 20px
+    font-family:'Gill Sans', sans-serif;
+} */

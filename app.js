@@ -1,58 +1,93 @@
-let sign = prompt("What's your name?");
-
-const main = ()=>{
-    const div1 = document.getElementById('computer-choice')
-    const div2 = document.getElementById('player-choice')
-    const div3 = document.getElementById('result')
-    const randomChoice = document.querySelector('button')
-}
-
-let userChoice = userChoicepick.addEventListener('click',e)
-
-const displayRock = ()=>{
-    div.append('Rock')
-}
-const displaypaper = ()=>{
-    div.append('Paper')
-}
-
-div.append('Scissors');
-setTimeout(displayPaper,1000)
-setTimeout(displayScissors,2000)
-setTimeout(displayShoot,3000)
+// let sign = prompt("Please enter your name");
 
 
+// Declaring values of all elements
+    const computerChoicediv = document.getElementById('computer-choice')
+    const playerChoicediv = document.getElementById('player-choice')
+    const outcomediv = document.getElementById('outcome')
+    const rockBtn =document.getElementById('rock')
+    const paperBtn =document.getElementById('paper')
+    const scissorsBtn =document.getElementById('scissors')
+    
 
-
-
-
-
-
-
-
-
-
-
-for (let i=0; i<;)
-
-
-
-
-
-
-
-
-function computer (){
+//  Computer Choices
+function getComputerChoice (){
     const randomNumber = Math.floor(Math.random()*3) +1
 
+let computerChoice;
     if(randomNumber === 1) {
         computerChoice ='rock'
     }
-    if(randomNumber === 2) {
+    else if(randomNumber === 2) {
         computerChoice ='paper'
     } 
-    if(randomNumber === 3) {
+    else if(randomNumber === 3) {
         computerChoice ='scissors'
     }
-    comp
+  return computerChoice  
 }
+const computerChoice= getComputerChoice()
+console.log(computerChoice);
+
+let playerChoice;
+
+function getPlayerChoice(e){
+playerChoice= e.target.value
+computerChoicediv.textContent=computerChoice
+outcomediv.textContent=getOutcome(playerChoice,computerChoice)
+}      
+
+
+
+
+
+function getOutcome(playerChoice,computerChoice){
+    let outcome;
+    if (playerChoice === computerChoice){
+        outcome = 'Tie'
+    }
+   else if (playerChoice === 'rock' && computerChoice==='paper'){
+        outcome = 'You Lost'
+    }
+   else if (playerChoice === 'rock' && computerChoice==='scissors'){
+        outcome = 'You Win'
+    }
+    else if (playerChoice === 'paper' && computerChoice==='rock'){
+        outcome = 'You Win'
+    }
+    else if (playerChoice === 'paper' && computerChoice==='scissors'){
+        outcome = 'You Lost'
+    }
+   else if (playerChoice === 'scissors' && computerChoice==='paper'){
+        outcome = 'You Win'
+    }
+   else if (playerChoice === 'scissors' && computerChoice==='rock'){
+        outcome = 'You Lost'
+    }
+    return outcome
+}
+
+// getOutcome(playerChoice,computerChoice)
+// console.log(outcome);
+
+
+
+rockBtn.addEventListener('click', getPlayerChoice)
+paperBtn.addEventListener('click', getPlayerChoice)
+scissorsBtn.addEventListener('click', getPlayerChoice)
+
+
+
+
+// const displayRock = ()=>{
+//     div.append('Rock')
+// }
+// const displaypaper = ()=>{
+//     div.append('Paper')
+// }
+
+
+// div.append('Scissors');
+// setTimeout(displayPaper,1000)
+// setTimeout(displayScissors,2000)
+// setTimeout(displayShoot,3000)

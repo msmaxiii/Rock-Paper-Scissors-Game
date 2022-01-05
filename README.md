@@ -22,9 +22,9 @@ Explanations of specific Technologies:
 Approach Taken:
 -
 
-Coming Soon!:
--Picking your avator
--Adding sound to the game
+-Coming Soon!:
+Picking your avator
+Adding sound to the game
 
 
 Installation Instructions:

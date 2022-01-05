@@ -22,7 +22,8 @@ Explanations of specific Technologies:
 Approach Taken:
 -
 
--Coming Soon!:
+Coming Soon:
+-
 Picking your avator
 Adding sound to the game
 

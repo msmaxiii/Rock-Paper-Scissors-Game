@@ -8,6 +8,7 @@
     const rockBtn =document.getElementById('rock')
     const paperBtn =document.getElementById('paper')
     const scissorsBtn =document.getElementById('scissors')
+    const sign=document.getElementById('sign')
     
 
 //  Computer Choices
@@ -34,6 +35,7 @@ let playerChoice;
 function getPlayerChoice(e){
 playerChoice= e.target.value
 computerChoicediv.textContent=computerChoice
+playerChoicediv.textContent=playerChoice
 outcomediv.textContent=getOutcome(playerChoice,computerChoice)
 }      
 
@@ -79,15 +81,48 @@ scissorsBtn.addEventListener('click', getPlayerChoice)
 
 
 
-// const displayRock = ()=>{
-//     div.append('Rock')
-// }
-// const displaypaper = ()=>{
-//     div.append('Paper')
-// }
+const displayRock = ()=>{
+    sign.textContent='Rock  '
+}
+const displayPaper = ()=>{
+    sign.append('Paper   ')
+}
+const displayScissors =()=>{
+    sign.append('Scissors    ')
+}
+const displayShoot =()=>{
+    sign.append('     Shoot')
+}
+setTimeout(displayRock,1000);
+setTimeout(displayPaper,2000)
+setTimeout(displayScissors,3000)
+setTimeout(displayShoot,4000)
+;
 
 
-// div.append('Scissors');
-// setTimeout(displayPaper,1000)
-// setTimeout(displayScissors,2000)
-// setTimeout(displayShoot,3000)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

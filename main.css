@@ -1,13 +1,11 @@
-/* *{
+*{
  margin:0;
 padding:0;
 box-sizing:border-box ;
 }
-
 body {
-background-color:lightgrey  ;
+background-image:url(./images/manik-roy-yGx-xAGwHQs-unsplash.jpg)
 }
-
 header {
 background:rgb(212, 223, 247);
 padding:20px;
@@ -16,21 +14,30 @@ header > h1{
     color:darkblue;
     text-align:center;
     font-family:'Gill Sans', sans-serif;
-
 }
-.container{position:relative;
-        width: 50%;
-        height: 50%;
+.container{
+       
         display:flex;
-} */
+        justify-content:center;
+        /* background-color:red ; */
+} 
 
-
-
-/* button id {
+ button id {
     margin:20px auto;
     border: 3px
-    text-align: center;
-    font-size:;
+    text-align center;
+    font-size: 12px;
     padding: 15px 20px
-    font-family:'Gill Sans', sans-serif;
-} */
+    font-family 'Gill Sans', sans-serif;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.choices{
+    background-color:yellow ;
+}
+.buttoncontainer{
+    background-color:blue ;
+}

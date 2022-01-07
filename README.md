@@ -8,6 +8,7 @@ The rock is a closed fist; paper is a flat hand with fingers and thumb extended 
 
 
 Game must have:
+-
 
 -Must be a two player game (either against the computer or against another player)
 -A win state - a way for the player to win the game
@@ -31,6 +32,7 @@ Confertti drop for winner
 
 
 Installation Instructions:
+-
 -Use the refresh button in the title bar to generate computer choice.
 
 
@@ -38,6 +40,7 @@ Installation Instructions:
 
 
 Reference:
+-
 -MDN Wed Documents for prompts and logic
 -W3schools border and buttons
 -google.com for images

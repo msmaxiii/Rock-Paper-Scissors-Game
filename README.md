@@ -18,7 +18,7 @@ Game must have:
 
 
 Explanations of specific Technologies:
--
+-None
 
 Approach Taken:
 -

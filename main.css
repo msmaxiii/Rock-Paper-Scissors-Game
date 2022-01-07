@@ -17,7 +17,7 @@ header
     text-align:center;
     font-family:'Gill Sans', sans-serif;
 }
- .score-board{
+ /* .score{
      margin:20px auto;
      border:3px solid white;
      border-radius: 4px;
@@ -28,20 +28,20 @@ header
      padding: 15px 20px;
      font-family:'Gill Sans', sans-serif; 
      position: relative;
- }
+ } */
 
-#playerid{
+/* #player{
     position: absolute;
     top: 30px;
     left: -25px;
 
 }
-#computerid{
+#computer{
     position: absolute;
     top: 30px;
-    right: -30px;
+    right: -30px; */
    
-}
+/* } */
 
 .images {
     border-radius: 25px; 

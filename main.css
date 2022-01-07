@@ -5,7 +5,7 @@ box-sizing:border-box ;
 }
 
 body {
-background-image:url(./images/manik-roy-yGx-xAGwHQs-unsplash.jpg)
+background-image:url()
 }
 
 header{
@@ -14,6 +14,7 @@ background:yellow;
 }
 
 header
+
  > h1{
     color:black;
     margin-top: 20px ;
@@ -43,9 +44,8 @@ button{
     margin-top:20px ;
     text-align: center;
     font-size: 26px;
-    /* padding: 15px 32px; */
     font-family:'Gill Sans', sans-serif; 
-    /* display: inline-block; */
+
 }
 button{
     width:120px ;
@@ -64,7 +64,7 @@ button{
 }
 .buttoncontainer{
     background-color:red;  
-    margin-top: 50px;
+    margin-top: 50px; 
     width: 500px;
     margin-left: 37%;
     display:flex;
@@ -73,7 +73,10 @@ button{
     
  }
 
-
+p> {
+   margin-top: 20px; 
+   font-family:'Gill Sans', sans-serif;
+}
 
 
 

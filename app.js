@@ -86,12 +86,6 @@ setTimeout(displayScissors,3000)
 setTimeout(displayShoot,4000)
 ;
 
-// function fire(particleRatio, outcome'') {
-//     confetti(Object.assign({outcome}, defaults, opts, {
-//       particleCount: Math.floor(count * particleRatio)
-//     }));
-//   }
-
 
 
 

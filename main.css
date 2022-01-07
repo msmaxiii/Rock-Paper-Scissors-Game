@@ -3,10 +3,6 @@ margin:0;
 padding:0;
 box-sizing:border-box ;
 }
-/* 
-body {
-background-image:url()
-} */
 
 header{
 background:yellow;
@@ -21,6 +17,32 @@ header
     text-align:center;
     font-family:'Gill Sans', sans-serif;
 }
+ .score-board{
+     margin:20px auto;
+     border:3px solid white;
+     border-radius: 4px;
+     text-align: center;
+     width: 200px;
+     color:black;
+     font-size: 46px;
+     padding: 15px 20px;
+     font-family:'Gill Sans', sans-serif; 
+     position: relative;
+ }
+
+#playerid{
+    position: absolute;
+    top: 30px;
+    left: -25px;
+
+}
+#computerid{
+    position: absolute;
+    top: 30px;
+    right: -30px;
+   
+}
+
 .images {
     border-radius: 25px; 
     margin-top:20px ;
@@ -54,7 +76,6 @@ button{
   }
 
 .choices{
-    /* background-color:yellow ; */
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -80,11 +101,5 @@ p> {
 
 
 
-/* 
-.confetti{
-    particleCount: 100;
-    spread: 70;
-    origin: { y: 0.6 };
-   *
-} */
+
 

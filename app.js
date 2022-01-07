@@ -1,6 +1,3 @@
-// let sign = prompt("Please enter your name");
-
-
 // Declaring values of all elements
     const computerChoicediv = document.getElementById('computer-choice')
     const playerChoicediv = document.getElementById('player-choice')
@@ -9,8 +6,7 @@
     const paperBtn =document.getElementById('paper')
     const scissorsBtn =document.getElementById('scissors')
     const sign=document.getElementById('sign')
-    
-
+   
 //  Computer Choices
 function getComputerChoice (){
     const randomNumber = Math.floor(Math.random()*3) +1
@@ -39,10 +35,6 @@ playerChoicediv.textContent=playerChoice
 outcomediv.textContent=getOutcome(playerChoice,computerChoice)
 }      
 
-
-
-
-
 function getOutcome(playerChoice,computerChoice){
     let outcome;
     if (playerChoice === computerChoice){
@@ -69,16 +61,11 @@ function getOutcome(playerChoice,computerChoice){
     return outcome
 }
 
-// getOutcome(playerChoice,computerChoice)
-// console.log(outcome);
-
 
 
 rockBtn.addEventListener('click', getPlayerChoice)
 paperBtn.addEventListener('click', getPlayerChoice)
 scissorsBtn.addEventListener('click', getPlayerChoice)
-
-
 
 
 const displayRock = ()=>{
@@ -99,7 +86,11 @@ setTimeout(displayScissors,3000)
 setTimeout(displayShoot,4000)
 ;
 
-
+// function fire(particleRatio, outcome'') {
+//     confetti(Object.assign({outcome}, defaults, opts, {
+//       particleCount: Math.floor(count * particleRatio)
+//     }));
+//   }
 
 
 

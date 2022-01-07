@@ -1,43 +1,87 @@
-*{
- margin:0;
+*{ 
+margin:0;
 padding:0;
 box-sizing:border-box ;
 }
+
 body {
 background-image:url(./images/manik-roy-yGx-xAGwHQs-unsplash.jpg)
 }
-header {
-background:rgb(212, 223, 247);
-padding:20px;
+
+header{
+background:yellow;
+
 }
-header > h1{
-    color:darkblue;
+
+header
+ > h1{
+    color:black;
+    margin-top: 20px ;
     text-align:center;
     font-family:'Gill Sans', sans-serif;
 }
+.images {
+    border-radius: 25px; 
+    margin-top:20px ;
+    display:flex;
+    justify-content:center;
+}
+ img{
+     width:1000px;
+     height: 500px;
+    object-fit:fill;
+}
 .container{
-       
+        margin-top: 20px;
         display:flex;
         justify-content:center;
-        /* background-color:red ; */
+         background-color:red ;  
 } 
 
- button id {
-    margin:20px auto;
-    border: 3px
-    text-align center;
-    font-size: 12px;
-    padding: 15px 20px
-    font-family 'Gill Sans', sans-serif;
+button{
+    background-color:yellow; 
+    margin-top:20px ;
+    text-align: center;
+    font-size: 26px;
+    /* padding: 15px 32px; */
+    font-family:'Gill Sans', sans-serif; 
+    /* display: inline-block; */
 }
-.box {
-    display: flex;
-    justify-content: space-between;
+button{
+    width:120px ;
+    height:80px ;
+    border-radius: 50px;
   }
 
 .choices{
-    background-color:yellow ;
+    /* background-color:yellow ; */
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
 }
 .buttoncontainer{
-    background-color:blue ;
-}
+    background-color:red;  
+    margin-top: 50px;
+    width: 500px;
+    margin-left: 37%;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+ }
+
+
+
+
+
+/* 
+.confetti{
+    particleCount: 100;
+    spread: 70;
+    origin: { y: 0.6 };
+   *
+} */
+

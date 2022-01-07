@@ -26,10 +26,12 @@ Coming Soon:
 -
 Picking your avator
 Adding sound to the game
+Scoreboard
+Confertti drop for winner
 
 
 Installation Instructions:
--
+-Use the refresh button in the title bar to generate computer choice.
 
 
 
@@ -37,6 +39,8 @@ Installation Instructions:
 
 Reference:
 -MDN Wed Documents for prompts and logic
--
+-W3schools border and buttons
+-google.com for images
+-upsplash
 
 

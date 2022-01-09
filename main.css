@@ -17,37 +17,13 @@ header
     text-align:center;
     font-family:'Gill Sans', sans-serif;
 }
- /* .score{
-     margin:20px auto;
-     border:3px solid white;
-     border-radius: 4px;
-     text-align: center;
-     width: 200px;
-     color:black;
-     font-size: 46px;
-     padding: 15px 20px;
-     font-family:'Gill Sans', sans-serif; 
-     position: relative;
- } */
 
-/* #player{
-    position: absolute;
-    top: 30px;
-    left: -25px;
 
-}
-#computer{
-    position: absolute;
-    top: 30px;
-    right: -30px; */
-   
-/* } */
-
-.images {
+ .images {
     border-radius: 25px; 
     margin-top:20px ;
     display:flex;
-    justify-content:center;
+    justify-content:center; 
 }
  img{
      width:1000px;
@@ -58,8 +34,28 @@ header
         margin-top: 20px;
         display:flex;
         justify-content:center;
-         background-color:red ;  
-} 
+        background-color:red ;  
+}
+
+ .computer{
+    margin-top: 20px; 
+    background: lightskyblue;
+    /* border-radius: 25px;  */
+    margin-top:20px ;
+    display:flex;
+    justify-content:center; 
+
+}
+
+.player{
+    background: lightskyblue;
+    /* border-radius: 25px;  */
+    margin-top: 20px;
+    display:flex;
+    justify-content:center; 
+
+}
+
 
 button{
     background-color:yellow; 
@@ -76,6 +72,7 @@ button{
   }
 
 .choices{
+    background-color: lightskyblue;
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -91,7 +88,6 @@ button{
     display:flex;
     justify-content: space-around;
     flex-direction: row;
-    
  }
 
 p> {

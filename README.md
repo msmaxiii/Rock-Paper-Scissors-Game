@@ -21,7 +21,7 @@ Explanations of specific Technologies:
 -None
 
 Approach Taken:
--
+-Used wireframe and started from top tp bottom
 
 Coming Soon:
 -
@@ -29,6 +29,7 @@ Picking your avator
 Adding sound to the game
 Scoreboard
 Confertti drop for winner
+Reset button
 
 
 Installation Instructions:

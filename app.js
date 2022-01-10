@@ -16,10 +16,10 @@
    
 //  Computer Choices
 function getComputerChoice (){
-    const randomNumber = Math.floor(Math.random()*3)+1
+    const randomNumber = Math.floor(Math.random()*3)+ 1
     retun =randomNumber;
     
-let computerChoice;
+let computerChoice
     if(randomNumber === 1) {
         computerChoice ='rock'
     }
@@ -133,20 +133,20 @@ if(computerScore>= 2){
     console.log('Computer Wins')
 }
 
+// let button= audio
+//  const myMusic= document.getElementById("audio");
+// // function play() {
+// //     myMusic.play();
+// // }
+// // function pause() {
+// //     myMusic.pause();
+// //     }
 
-// const myMusic= document.getElementById("music");
-// function play() {
-//     myMusic.play();
-// }
-// function pause() {
-//     myMusic.pause();
-//     }
-
-// function myAudioObject().play(){
-// audio-controls id="music";
-// }
+// // function myAudioObject().play(){
+// // audio-controls id="audio";
+// // }
 
 
-// // button onclick="play()" type="button">Play</button;
+//  button onclick="play()" type="button">Play</button;
 // // button onclick="pause()" type="button">Pause</button;
 

@@ -39,8 +39,7 @@ header
 
  .computer{
     margin-top: 20px; 
-    background: lightskyblue;
-    /* border-radius: 25px;  */
+    background-color: rgb(11, 137, 187);
     margin-top:20px ;
     display:flex;
     justify-content:center; 
@@ -48,9 +47,8 @@ header
 }
 
 .player{
-    background: lightskyblue;
-    /* border-radius: 25px;  */
-    margin-top: 20px;
+    background-color: rgb(11, 137, 187);
+     margin-top: 20px;
     display:flex;
     justify-content:center; 
 
@@ -72,7 +70,7 @@ button{
   }
 
 .choices{
-    background-color: lightskyblue;
+    background-color: rgb(11, 137, 187);
     margin-top: 20px;
     display: flex;
     align-items: center;

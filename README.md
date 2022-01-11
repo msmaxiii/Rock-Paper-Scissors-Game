@@ -21,7 +21,7 @@ Explanations of specific Technologies:
 -None
 
 Approach Taken:
--Used wireframe and started from top tp bottom
+-Used wireframe and started from top to bottom
 
 Coming Soon:
 -
@@ -46,5 +46,7 @@ Reference:
 -W3schools border and buttons
 -google.com for images
 -upsplash
-
+-google studio for music
+-HTML/CSS book
+-Youtube whatdev --How to build Rock Paper Scissors Game Part II
 
